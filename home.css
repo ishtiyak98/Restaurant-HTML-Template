@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-container .top-img{
+    background-image: url("./img/background/back-1.jpg");
+    background-repeat: no-repeat;
+    height: 760px;
+}
+
+.top-container .top-img .nav-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 110px;
+    width: 85%;
+}
+
+.nav-area nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 25px;
+    font-size: 12pt;
+}
+
+.nav-area nav a:hover{
+    color: #FF8E28;
+}
+.top-icon{
+    color: white;
+}
+
+.top-icon .fas{
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.top-icon .fas:hover{
+    color: #FF8E28;
+    border-color: #FF8E28;
+}
+
+.fa-search{
+    margin-right: 20px;
+}
+.fa-shopping-basket{
+    margin-right: 20px;
+}
+
+.top-container .top-img .title-text h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 65pt;
+    color: #FF8E28;
+    margin-top: 80px;
+}
+
+.top-container .top-img .title-text h2 span{
+    color: white;
+    font-family: 'Lilita One', cursive;
+}
+
+.top-container .top-img .chicken-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.service{
+    height: 400px;
+}

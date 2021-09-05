@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 
 *{
     margin: 0;
@@ -9,6 +10,8 @@
 
 .top-container .top-img{
     background-image: url("./img/background/back-1.jpg");
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 760px;
 }
@@ -36,7 +39,7 @@
 }
 
 .top-icon .fas{
-    border: 2px solid white;
+    border: 3px solid white;
     border-radius: 50px;
     padding: 15px;
 }
@@ -74,5 +77,78 @@
 }
 
 .service{
-    height: 400px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.service .side-img img{
+    width: 600px;
+    height: 600px;
+    margin-top: 420px;
+    margin-left: 125px;
+}
+
+.service .service-text{
+    width: 550px;
+    margin-top: 400px;
+    margin-left: 100px;
+    
+}
+
+.service .service-text .upper-text p{
+    font-family: 'Sofia', cursive;
+    color: #FF8E28;
+    font-size: 19pt;
+    margin-bottom: 15px;
+}
+
+.service .service-text .title-text p{
+    font-family: 'Lilita One', cursive;
+    font-size: 35pt;
+    color: rgb(20, 20, 20);
+    margin-bottom: 15px;
+}
+
+.service .service-text .middle-text p{
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    line-height: 26px;
+    text-align: justify;
+    margin-bottom: 70px;
+}
+
+.service .service-text .exp-card{
+    display: flex;
+    border-left: 5px solid #FF8E28;
+    box-shadow: 5px 10px 20px rgb(235, 235, 235);
+    width: 240px;
+    /* height: 100px; */
+    padding: 20px 65px;
+}
+
+.service .service-text .exp-card .number{
+    font-size: 42pt;
+    font-weight:900;
+    color: #FF8E28;
+}
+
+.service .service-text .exp-card .plus{
+    font-size: 25pt;
+    font-weight: 500;
+    color: #FF8E28;
+}
+
+.service .service-text .exp-card .wrap-2{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.service .service-text .exp-card .wrap-2 .experience{
+    font-size: 18pt;
+    font-weight: thin;
+}
+
+.menu{
+    height: 1000px;
 }
